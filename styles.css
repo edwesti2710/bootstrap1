@@ -1,0 +1,257 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;600;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #F24C4C;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23EC9B3B' fill-opacity='0.5'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Mulish', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+.limiter_space {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #293462c9;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-main {
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* padding: 20px 0; */
+    border-bottom: 1px solid white;
+}
+
+.brand__img {
+    width: 50px;
+}
+
+.nav__menu {
+    display: flex;
+    font-weight: 700;
+}
+
+.nav__menu li a {
+    margin: 0 10px;
+    padding: 5px 10px;
+    /* background-color: red; */
+}
+
+.nav__menu li a:hover {
+    border-bottom: 2px solid #F24C4C;
+}
+
+.search__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* background-color: red; */
+    width: 250px;
+}
+
+.search__bar input {
+    padding: 5px 10px;
+    outline: none;
+    font-weight: 500;
+    font-size: 1.6rem;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+}
+
+.search__bar i {
+    font-size: 2rem;
+}
+
+.resp--button {
+    font-size: 3rem;
+    display: none;
+}
+
+.menu--categorias {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu--categorias li {
+    width: 120px;
+    text-align: center;
+    margin: 10px;
+}
+
+.menu--categorias li a {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 1px inset #F24C4C;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.menu--categorias li a:hover {
+    border: 1px inset #F7D716;
+}
+
+/* PORTADA */
+.portada {
+    width: 100%;
+    height: 550px;
+    background: url(https://hablandoclaro.pe/storage/images/HC-Portada-Gamer-Fest.jpg) no-repeat center center/cover;
+    color: white;
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.portada__data {
+    background-color: #00000095;
+    padding: 15px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.button {
+    align-self: start;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 6px 0 0 0;
+    border-radius: 10px;
+    font-weight: 900;
+    background-color: #F24C4C;
+    box-shadow: 2px 2px 5px #000f;
+}
+
+.button:hover {
+    background-color: #EC9B3B;
+
+}
+
+/* NOTICIAS */
+/* .noticias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+} */
+
+.card {
+    box-shadow: 5px 5px 20px #0005;
+    /* padding: 10px; */
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+}
+
+.card h3 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.card a {
+    display: inline-block;
+    padding: 10px 0;
+    color: #EC9B3B;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* BANNER */
+.banner {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+.content {
+    background-color: #00000095;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 56%;
+    padding: 20px;
+}
+
+.banner--1 {
+    background: url(./assets/pexels-ylanite-koppens-776654.jpg) no-repeat center center/cover;
+}
+
+.banner--2 {
+    background: url(./assets/pexels-pixabay-301920.jpg) no-repeat center center/cover;
+}
+
+.social {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.social p {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.links {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.links a {
+    font-size: 3rem;
+}
+
+form {
+    font-size: 1.4rem;
+}

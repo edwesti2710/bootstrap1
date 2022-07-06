@@ -1,0 +1,4 @@
+/* 
+font-family: 'Mulish', sans-serif; 300-500-600-700-900
+paleta:https://colorhunt.co/palette/293462f24c4cec9b3bf7d716
+ */
